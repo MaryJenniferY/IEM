@@ -1015,6 +1015,7 @@ h1, h2, h3, h4, h4, h5, p{
     .streams{
         text-align: center;
         margin-bottom: 20px;
+        width: 100%;
     }
 
 .stream h3{
@@ -1066,16 +1067,27 @@ h1, h2, h3, h4, h4, h5, p{
     }
     
     .page2 img{
-        width: 50px;
+        width: 42px;
     }
-    .apimg{
-    width: 50px;
-    height: 50px;
-    margin: 0px;
-}
+    
+    .ap .apimg{
+        width: 42px;
+        height: 42px;
+        margin: 0;
+    }
+    
+    .ap3 .apimg{
+        width: 42px;
+        height: 42px;
+        margin: 0;
+    }
     
     .page2 h3{
         font-size: 15px;
+    }
+    
+    .page2{
+        padding: 20px 0;
     }
     
     .place{
@@ -1085,12 +1097,14 @@ h1, h2, h3, h4, h4, h5, p{
 
 .pl3{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 0px;
+    width: 48%;
 }
 
 .pl3con{
-    width: 46%;
+    width: 100%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .p1{
@@ -1138,18 +1152,7 @@ h1, h2, h3, h4, h4, h5, p{
         margin-bottom: 8px;
     }
     
-
-/*
-    .apps1{
-        position: relative;
-        top: -2px;
-    }
     
-    .apps2{
-        position: relative;
-        top: -10px;
-    }
-*/
     
     .apps3{
         position: relative;
